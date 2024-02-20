@@ -1,0 +1,60 @@
+﻿^contentpage {
+    background-color: rgba(0,255,0,.2);
+    -maui-bar-background-color: black;
+    -maui-shell-title: white;
+    -maui-shell-background: green;
+}
+
+button {
+    background-color: lightgray;
+    color: black;
+}
+
+Entry {
+    background-color: lightgray;
+    color: black;
+    -maui-placeholder-color: rgba(0,0,0,0.6);
+}
+
+#AddStudentForm, 
+#RandomForm {
+    padding: 20;
+}
+
+#AddStudentForm > * {
+    margin: 5 2;
+}
+
+#RandomForm > * {
+    margin: 10 2;
+}
+
+#RandomForm > Picker {
+    background-color: lightgray;
+}
+
+.student {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.student > * {
+    box-sizing: border-box;
+    text-align: center;
+    border: 1 solid #000;
+    padding: 10;
+    margin: 5 0;
+}
+
+#EditStudentForm {
+    padding: 20;
+}
+
+#EditStudentForm > * {
+    margin: 10 0;
+}
+
+#EditStudentForm > Grid > label {
+    margin: 8 10 0 0;
+}

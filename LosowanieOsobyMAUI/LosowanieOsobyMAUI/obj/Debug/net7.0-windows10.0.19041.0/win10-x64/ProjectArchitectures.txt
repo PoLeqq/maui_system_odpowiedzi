@@ -1,0 +1,1 @@
+C:\Users\Wiktor\source\repos\LosowanieOsobyMAUI\LosowanieOsobyMAUI\LosowanieOsobyMAUI.csproj;x64

@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LosowanieOsobyMAUI
+build_property.ProjectDir = C:\Users\Wiktor\source\repos\LosowanieOsobyMAUI\LosowanieOsobyMAUI\
+
+[C:/Users/Wiktor/source/repos/LosowanieOsobyMAUI/LosowanieOsobyMAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LosowanieOsobyMAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Wiktor/source/repos/LosowanieOsobyMAUI/LosowanieOsobyMAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LosowanieOsobyMAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Wiktor/source/repos/LosowanieOsobyMAUI/LosowanieOsobyMAUI/EditStudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LosowanieOsobyMAUI.EditStudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditStudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditStudentPage.xaml
+
+[C:/Users/Wiktor/source/repos/LosowanieOsobyMAUI/LosowanieOsobyMAUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LosowanieOsobyMAUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Wiktor/source/repos/LosowanieOsobyMAUI/LosowanieOsobyMAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LosowanieOsobyMAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Wiktor/source/repos/LosowanieOsobyMAUI/LosowanieOsobyMAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LosowanieOsobyMAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Wiktor/source/repos/LosowanieOsobyMAUI/LosowanieOsobyMAUI/Resources/Styles/styles.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = LosowanieOsobyMAUI.Resources.Styles.styles.css
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\styles.css
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\styles.css

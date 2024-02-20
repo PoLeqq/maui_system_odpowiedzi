@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LosowanieOsobyMAUI.MainPage">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/Resources/Styles/styles.css"/>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <FlexLayout Direction="Row" AlignItems="Stretch" ClassId="MainFlex">
+            <!-- Lewa strona -->
+            <StackLayout StyleId="AddStudentForm" FlexLayout.Basis="50%">
+                <Label Text="Dodawanie ucznia"/>
+                <Entry x:Name="idEntry" Placeholder="Nr. w dzienniku" Keyboard="Numeric" />
+                <Entry x:Name="nameEntry" Placeholder="Imię" />
+                <Entry x:Name="surnameEntry" Placeholder="Nazwisko" />
+                <Entry x:Name="clazzEntry" Placeholder="Klasa" />
+                <StackLayout>
+                    <Label Text="Obecny:"/>
+                    <Switch x:Name="presentSwitch" IsToggled="True" />
+                </StackLayout>
+                <Button Text="Dodaj ucznia" Clicked="OnSubmitClicked"/>
+            </StackLayout>
+
+            <!-- Środkowa część -->
+            <StackLayout StyleId="RandomForm" FlexLayout.Basis="50%">
+                <Label Text="Losowanie"/>
+                <Picker x:Name="classPicker" Title="Wybierz klasę" SelectedIndexChanged="OnClassSelected"/>
+                <Entry x:Name="luckyNumberEntry" Placeholder="Szczęśliwy numerek" Keyboard="Numeric" TextChanged="OnLuckyNumberChanged"/>
+                <StackLayout>
+                    <Label Text="Nie losuj nieobecnych"/>
+                    <Switch x:Name="excludeAbsentSwitch" Toggled="OnExcludeAbsentToggled" IsToggled="True"/>
+                </StackLayout>
+                <Button Text="Losuj ucznia" Clicked="GetRandomStudent"/>
+            </StackLayout>
+        </FlexLayout>
+        <ListView x:Name="listView" FlexLayout.Basis="70%">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" StyleClass="student">
+                            <Label Text="{Binding Id}" />
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding Surname}" />
+                            <Label Text="{Binding Clazz}" />
+                            <Label Text="{Binding Present}" />
+                            <Button Text="Edit" Clicked="OnEditStudentClicked"/>
+                            <Button Text="Remove" Clicked="OnRemoveStudentClicked"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
